@@ -14,6 +14,7 @@ function decord(music)
     end
 end
 
+term.clear()
 term.setCursorPos(1,1)
 print("URL:")
 url = read()
