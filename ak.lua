@@ -5,6 +5,7 @@ function updatehelp()
 end
 
 function term_YorN(string)
+    term.clear()
     term.setCursorPos(1,0)
     print(string.format("%d (Y or N) :", string))
     local input = read()
