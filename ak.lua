@@ -25,6 +25,7 @@ function update(programName)
 end
 
 if args[1] == "update" then
+    term.clear()
     if args[2] == nil then
         print("please type program name")
     else
