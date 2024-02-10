@@ -7,7 +7,8 @@ end
 function term_YorN(string)
     term.clear()
     term.setCursorPos(1,0)
-    print(string.format("%d (Y or N) :", string))
+    print(string)
+    print("Y or N")
     local input = read()
     if input == "y" or input == "Y" then
         return true 
